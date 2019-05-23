@@ -1,0 +1,8 @@
+
+build/
+
+app/release/
+
+app/\.externalNativeBuild/
+
+gradle/wrapper/gradle-wrapper\.jar

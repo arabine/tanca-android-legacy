@@ -1,0 +1,3 @@
+[submodule "www-app"]
+	path = www-app
+	url = https://github.com/tanca/www-app
