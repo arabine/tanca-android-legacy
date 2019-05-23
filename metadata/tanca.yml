@@ -1,0 +1,58 @@
+# Tanca metadata
+
+Categories:
+ - Sports & Health
+
+License: MIT
+Website: http://www.tanca.fr
+SourceCode: https://github.com/tanca/tanca-android
+IssueTracker: https://github.com/tanca/tanca-android/issues
+Changelog: https://github.com/tanca/tanca-android/blob/master/CHANGELOG
+
+# Donate: (web link)
+# FlattrID: (number)
+# LiberapayID: (number)
+# Bitcoin: (bitcoin address)
+
+Summary: Pétanque contest manager (tournaments)
+Description: |-
+    Tanca is a simple application that can help you organize a Pétanque 
+    contest.
+    
+    Add players and create teams, the app will generate the game rounds 
+    for you and see the final ranking.
+
+    The first round is generated using a random algorithm and the next 
+    rounds use the Blossom algorithm to perfectly pair teams 
+    (best teams play with best other ones).
+
+
+RepoType: git
+Repo: https://github.com/tanca/tanca-android
+
+# At least one for new apps
+Builds:
+  - versionName: '1.0.1'
+    versionCode: 4
+    commit: v1.0.1
+    subdir: app
+    submodules: true
+    gradle:
+      - yes
+    # output: some.apk
+    # prebuild: sed -i -e
+
+# For a complete list of possible flags, see the manual
+
+# MaintainerNotes: |-
+#     Here go the notes to take into account for future updates, builds, etc.
+#     Will be published in the wiki if present.
+
+# The following options are described at this location:
+# https://f-droid.org/docs/Build_Metadata_Reference/#UpdateCheckMode
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersion: 1.0.1
+CurrentVersionCode: 1
+
+ 
