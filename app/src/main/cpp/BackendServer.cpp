@@ -1,6 +1,7 @@
-//
-// Created by anthony on 16/05/19.
-//
+/**
+ * MIT License
+ * Copyright (c) 2019 Anthony Rabine
+ */
 
 #include "BackendServer.h"
 #include "HttpFileServer.h"

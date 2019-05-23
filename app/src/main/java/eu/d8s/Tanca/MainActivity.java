@@ -1,3 +1,8 @@
+/**
+ * MIT License
+ * Copyright (c) 2019 Anthony Rabine
+ */
+
 package eu.d8s.Tanca;
 
 import android.app.Activity;

@@ -70,7 +70,7 @@ dependencies {
 task generateEfsSource(type:Exec) {
     println ">>>>>> Generate EFS file"
 
-    workingDir '..'
+    workingDir '../'
     executable './gen_efs_android.sh'
 }
 preBuild.dependsOn(generateEfsSource)

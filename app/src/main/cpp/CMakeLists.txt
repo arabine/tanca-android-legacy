@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.4.1)
 project(tanca_server LANGUAGES C CXX)
 
 # New path definition
-set(ICL_DIR ../../../../../src/icl)
+set(ICL_DIR ../../../../icl)
 
 set(ICL_DIR_UTILS   ${ICL_DIR}/util)
 set(ICL_DIR_NET     ${ICL_DIR}/network)

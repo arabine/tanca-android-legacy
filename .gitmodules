@@ -1,3 +1,9 @@
 [submodule "www-app"]
 	path = www-app
 	url = https://github.com/tanca/www-app
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/tanca/scripts
+[submodule "icl"]
+	path = icl
+	url = https://github.com/brasserie/icl

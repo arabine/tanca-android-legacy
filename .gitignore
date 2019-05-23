@@ -6,3 +6,9 @@ app/release/
 app/\.externalNativeBuild/
 
 gradle/wrapper/gradle-wrapper\.jar
+
+\.gradle/
+
+\.idea/
+
+*.iml

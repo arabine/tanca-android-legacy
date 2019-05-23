@@ -1,3 +1,3 @@
-# Generated files folder
+# C++ Server files
 
-Please do not include files here in Git
+
