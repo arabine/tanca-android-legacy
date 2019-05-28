@@ -1,0 +1,3 @@
+Tanca est une application permettant de gérer le déroulement d'un concours de Pétanque. La version actuelle permet d'ajouter des joueurs, de créer des équipes, de générer des parties et de visualiser le classement.
+
+La création de partie est réalisée en fonction du classement (les meilleurs jouent avec les meilleurs), sauf au premier tour bien entendu.

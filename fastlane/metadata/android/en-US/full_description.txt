@@ -1,0 +1,3 @@
+This simple app will help you organize a Pétanque contest: add players and create teams, the app will generate the game rounds for you and see the final ranking.
+
+The first round is generated using a random algorithm and the next rounds use the Blossom algorithm to perfectly pair teams (best teams play with best other ones).
