@@ -37,6 +37,12 @@ public class MainActivity extends Activity {
         mWebView.loadUrl("http://127.0.0.1:" + String.valueOf(tcpPort));
     }
 
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        this.moveTaskToBack(true);
+    }
+
     static {
         System.loadLibrary("tanca_server");
         System.loadLibrary("icl");
