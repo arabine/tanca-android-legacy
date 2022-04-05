@@ -32,10 +32,20 @@ extern "C" {
 JNIEXPORT jint JNICALL
 Java_eu_d8s_Tanca_MainActivity_initialize(JNIEnv *env, jobject instance) {
     LOGI("[TANCA] Starting Tanca server");
-    jint tcpPort = 8081;
+    jint tcpPort = 42422;
 
     gBackendServer.Initialize();
-    tcpServer.Start(10, true, tcpPort, 8082);
+
+    bool foundFreePort = false;
+    do {
+        foundFreePort = tcpServer.Start(10, true, tcpPort, tcpPort + 1);
+        LOGI("[TANCA] TCP server started");
+
+        if (!foundFreePort)
+        {
+            tcpPort++;
+        }
+    } while (!foundFreePort);
 
     return tcpPort;
 }
