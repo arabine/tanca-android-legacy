@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+import org.apache.tools.ant.taskdefs.condition.Os
 
 ext.isRelease = { array ->
     array.each { name ->
@@ -71,7 +72,14 @@ task generateEfsSource(type:Exec) {
     println ">>>>>> Generate EFS file"
 
     workingDir '../'
-    executable './gen_efs_android.sh'
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        println "Windows host detected"
+        executable './gen_efs_android.bat'
+    } else {
+        println "Linux host detected"
+        executable './gen_efs_android.sh'
+    }
+
 }
 preBuild.dependsOn(generateEfsSource)
 
