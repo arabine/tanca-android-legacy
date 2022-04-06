@@ -32,8 +32,8 @@ Repo: https://github.com/tanca/tanca-android
 
 # At least one for new apps
 Builds:
-  - versionName: 1.0.1
-    versionCode: 4
+  - versionName: 1.0.2
+    versionCode: 5
     commit: v1.0.1
     subdir: app
     submodules: true
@@ -52,7 +52,7 @@ Builds:
 # https://f-droid.org/docs/Build_Metadata_Reference/#UpdateCheckMode
 AutoUpdateMode: Version %v
 UpdateCheckMode: Tags
-CurrentVersion: 1.0.1
-CurrentVersionCode: 4
+CurrentVersion: 1.0.2
+CurrentVersionCode: 5
 
  
