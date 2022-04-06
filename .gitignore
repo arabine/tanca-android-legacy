@@ -16,3 +16,5 @@ gradle/wrapper/gradle-wrapper\.jar
 app/.cxx/
 
 local.properties
+
+build-*

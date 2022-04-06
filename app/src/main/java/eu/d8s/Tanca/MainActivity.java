@@ -45,7 +45,6 @@ public class MainActivity extends Activity {
 
     static {
         System.loadLibrary("tanca_server");
-        System.loadLibrary("icl");
     }
 
     public native int initialize();
